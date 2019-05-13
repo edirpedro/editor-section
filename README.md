@@ -2,6 +2,8 @@
 
 This WordPress plugin adds a new block to create Sections and wrap other blocks inside it.
 
+![Sample](./src/sample.png)
+
 ## Features
 
 - Margin top and bottom
