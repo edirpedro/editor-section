@@ -1,0 +1,82 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-editor-section {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  justify-items: center; }
+  .wp-block-cgb-block-editor-section__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .wp-block-cgb-block-editor-section__content {
+    position: relative;
+    width: 100%; }
+    .wp-block-cgb-block-editor-section__content > *:first-child {
+      margin-top: 0; }
+    .wp-block-cgb-block-editor-section__content > *:last-child {
+      margin-bottom: 0; }
+  .wp-block-cgb-block-editor-section.viewportfull {
+    height: 100vh; }
+  .wp-block-cgb-block-editor-section.margin-top-small {
+    margin-top: 30px; }
+  .wp-block-cgb-block-editor-section.margin-top-medium {
+    margin-top: 60px; }
+  .wp-block-cgb-block-editor-section.margin-top-large {
+    margin-top: 120px; }
+  .wp-block-cgb-block-editor-section.margin-bottom-small {
+    margin-bottom: 30px; }
+  .wp-block-cgb-block-editor-section.margin-bottom-medium {
+    margin-bottom: 60px; }
+  .wp-block-cgb-block-editor-section.margin-bottom-large {
+    margin-bottom: 120px; }
+  .wp-block-cgb-block-editor-section.padding-top-small {
+    padding-top: 30px; }
+  .wp-block-cgb-block-editor-section.padding-top-medium {
+    padding-top: 60px; }
+  .wp-block-cgb-block-editor-section.padding-top-large {
+    padding-top: 120px; }
+  .wp-block-cgb-block-editor-section.padding-bottom-small {
+    padding-bottom: 30px; }
+  .wp-block-cgb-block-editor-section.padding-bottom-medium {
+    padding-bottom: 60px; }
+  .wp-block-cgb-block-editor-section.padding-bottom-large {
+    padding-bottom: 120px; }
+  @media (max-width: 425px) {
+    .wp-block-cgb-block-editor-section.margin-top-small {
+      margin-top: 15px; }
+    .wp-block-cgb-block-editor-section.margin-top-medium {
+      margin-top: 30px; }
+    .wp-block-cgb-block-editor-section.margin-top-large {
+      margin-top: 60px; }
+    .wp-block-cgb-block-editor-section.margin-bottom-small {
+      margin-bottom: 15px; }
+    .wp-block-cgb-block-editor-section.margin-bottom-medium {
+      margin-bottom: 30px; }
+    .wp-block-cgb-block-editor-section.margin-bottom-large {
+      margin-bottom: 60px; }
+    .wp-block-cgb-block-editor-section.padding-top-small {
+      padding-top: 15px; }
+    .wp-block-cgb-block-editor-section.padding-top-medium {
+      padding-top: 30px; }
+    .wp-block-cgb-block-editor-section.padding-top-large {
+      padding-top: 60px; }
+    .wp-block-cgb-block-editor-section.padding-bottom-small {
+      padding-bottom: 15px; }
+    .wp-block-cgb-block-editor-section.padding-bottom-medium {
+      padding-bottom: 30px; }
+    .wp-block-cgb-block-editor-section.padding-bottom-large {
+      padding-bottom: 60px; } }
