@@ -39,8 +39,6 @@ const section = ( attributes ) => {
 	
 	let result = {};
 	
-	// Background
-
 	Object.assign( result, {
 		backgroundColor: attributes.backgroundColor,
 	} );
@@ -155,15 +153,14 @@ registerBlockType( 'cgb/block-editor-section', {
 	attributes: {
 		
 		align: { type: 'string', default: 'full' },
-		viewport: { type: 'number' },
+		viewport: { type: 'boolean' },
 		
 		marginTopClass: { type: 'string' },
 		marginBottomClass: { type: 'string' },
-		
 		paddingTopClass: { type: 'string', default: 'medium' },
 		paddingBottomClass: { type: 'string', default: 'medium' },
 		
-		backgroundAttachment: { type: 'string' },
+		backgroundAttachment: { type: 'boolean' },
 		backgroundImage: { type: 'string' },
 		backgroundPosition: { type: 'string', default: 'center center' },
 		backgroundRepeat: { type: 'string', default: 'no-repeat' },
@@ -320,7 +317,7 @@ registerBlockType( 'cgb/block-editor-section', {
 					<div className={ `${ classBlock }__image` } style={ image( attributes ) }></div>
 				) }
 				<div className={ `${ classBlock }__content entry-content` }>
-					<InnerBlocks templateLock={ false } />
+					<InnerBlocks />
 				</div>
 			</div>
 		);

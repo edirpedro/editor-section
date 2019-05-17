@@ -5,4 +5,9 @@
  * which makes it higher in priority.
  */
 
+.wp-block-cgb-block-editor-section__content > .block-editor-inner-blocks {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
 @import 'style';
